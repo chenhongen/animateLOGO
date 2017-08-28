@@ -32,15 +32,15 @@ svg.font {
 @-webkit-keyframes movec {
     to {
         fill: #FFF;
-        -webkit-transform: translateX(480px) translateY(0px);
-                transform: translateX(480px) translateY(0px);
+        -webkit-transform: translateX(480px);
+                transform: translateX(480px);
     }
 }
 @keyframes movec {
     to {
         fill: #FFF;
-        -webkit-transform: translateX(480px) translateY(0px);
-                transform: translateX(480px) translateY(0px);
+        -webkit-transform: translateX(480px);
+                transform: translateX(480px);
     }
 }
 
@@ -67,12 +67,14 @@ svg.font {
     from {
         /** fill: hsl(270, 80%, 60%); **/
         fill: #FFF;
-        stroke: #000;
-        -webkit-transform: rotateZ(0) rotateZ(90deg);
-                transform: rotateZ(0) rotateZ(90deg);
+        stroke: #FFF;
+        -webkit-transform: rotateZ(0deg);
+                transform: rotateZ(0deg);
     }
     to {
       opacity: 1;
+      -webkit-transform: rotateZ(90deg) translateY(150px);
+              transform: rotateZ(90deg) translateY(150px);
     }
     /**
     60% {
@@ -89,12 +91,14 @@ svg.font {
     from {
         /** fill: hsl(270, 80%, 60%); **/
         fill: #FFF;
-        stroke: #000;
-        -webkit-transform: rotateZ(90) rotateZ(0deg);
-                transform: rotateZ(90) rotateZ(0deg);
+        stroke: #FFF;
+        -webkit-transform: rotateZ(0deg);
+                transform: rotateZ(0deg);
     }
     to {
       opacity: 1;
+      -webkit-transform: rotateZ(90deg) translateY(150px);
+              transform: rotateZ(90deg) translateY(150px);
     }
     /**
     60% {
