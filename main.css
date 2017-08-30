@@ -10,18 +10,18 @@ svg.font {
 }
 /** C向右移动 **/
 .animate #c {
-    -webkit-animation-name: show, rotate, movec;
-            animation-name: show, rotate, movec;
-    -webkit-animation-duration: 0.1s, 3s, 1.5s;
-            animation-duration: 0.1s, 3s, 1.5s;
-    -webkit-animation-delay: 1s, 1s, 2.2s;
-            animation-delay: 1s, 1s, 2.2s;
-    -webkit-animation-fill-mode: forwards, none, forwards;
-            animation-fill-mode: forwards, none, forwards;
-    -webkit-animation-iteration-count: 1, infinite, 1;
-            animation-iteration-count: 1, infinite, 1;
-    -webkit-animation-timing-function: ease, linear, ease;
-            animation-timing-function: ease, linear, ease;
+    -webkit-animation-name: movec;
+            animation-name: movec;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
     -webkit-transform-origin: center center;
             transform-origin: center center;
     position: absolute;
